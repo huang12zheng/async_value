@@ -1,5 +1,4 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:meta/meta.dart';
 
 // import 'future_provider.dart' show FutureProvider;
 // import 'stream_provider.dart' show StreamProvider;
