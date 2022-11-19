@@ -1,8 +1,5 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
+/// A utility for safely manipulating asynchronous data.
 library async_value;
 
-export 'src/state.dart';
-
-// TODO: Export any libraries intended for clients of this package.
+export 'package:riverpod/riverpod.dart'
+    show AsyncData, AsyncError, AsyncLoading, AsyncValue, AsyncValueX;
