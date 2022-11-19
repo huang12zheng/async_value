@@ -1,15 +1,14 @@
 name: async_value
-description: An utility for safely manipulating asynchronous data
+description: A utility for safely manipulating asynchronous data
 version: 0.0.1
 # homepage: https://www.example.com
 repository: https://github.com/huang12zheng/async_value
 
 environment:
-  sdk: '>=2.12.0-133.2.beta <3.0.0'
-  # sdk: '>=2.12.0 <3.0.0'
+  sdk: '>=2.17.0 <3.0.0'
 
 dependencies:
-  freezed_annotation: ^0.13.0-nullsafety.0
+  riverpod: ^2.1.1
 
 dev_dependencies:
   pedantic: ^1.10.0-nullsafety.3
